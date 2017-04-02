@@ -2,7 +2,7 @@ var a = {
 	num : 0,
 
 	myfunc : function() {
-		return this.num;
+		return null;
 	}
 };
 document.write(a.myfunc());
